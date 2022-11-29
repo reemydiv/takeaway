@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+body{
+    background-color: rgb(219, 216, 216);
+}
+header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    position: relative;
+    
+    z-index: 999;
+    width: 100%;
+
+
+}
+.adress1{
+    background-color: coral;
+    width:110px;
+    height: 40px;
+    border-radius: 10px;
+    padding: 15px;
+    padding-top: 10px;
+    margin-top: 13px;
+    margin-left: 40px;
+    font-size: 1.1em ;
+    font-weight: 500;
+    color: aliceblue;
+
+
+}
+.adress1:hover{
+    background-color: chocolate;
+}
+.adress2{
+    background-color: transparent;
+    width:700px;
+    height: 30px;
+    border-radius: 50px;
+    margin-top: 15px;
+    padding: 5px 15px 5px 515px;
+    border: 0.8px solid black;
+
+}
+.adress3{
+    font-size: 2.5em;
+    font-weight: 700px;
+    margin-right: 40px;
+    margin-top: 7px;
+    color:rgb(63, 13, 52);
+}
+.title{
+    font-size: 3em;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+.con1{
+    border: 1px solid black;
+    width: 500px;
+    height: 50px;
+    margin-left: 280px;
+    margin-top: 20px;
+    position: relative;
+    border-radius: 3px;
+    
+}
+.con1 div{
+    padding-top: 15px;
+    padding-right: 10px;
+    
+    font-size: 1.1em;
+    font-weight: 500;
+    border-radius: 3px;
+    padding-left: 310px;
+
+}
+.con1 span{
+    background-color: coral;
+    width: 100px;
+    height: 30px;
+    color: aliceblue;
+    font-size: 1.1em;
+    font-weight: 500;
+    border-radius: 5px;
+    padding-left: 30px;
+    padding-top: 5px;
+    position: absolute;
+    top:10px;
+    left: 7px;
+}
+.con1 span:hover{
+    background-color: chocolate;
+}
+.con2{
+    padding-left: 670px;
+    margin: 20px;
+}
+.con3 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 20px;
+
+}
+.con3 p{
+    color: rgb(55, 45, 199);
+    font-size: 1em;
+    font-weight: 600;
+}
+.con4{
+    background-color: rgb(180, 179, 179);
+    width: 90px;
+    height: 40px;
+    margin-left: 700px;
+    margin-right: 200px;
+    margin-top: 20px;
+    color:  rgb(12, 12, 12);
+    border-radius: 7px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.con5{
+    
+    width: 150px;
+    height: 60px;
+    border: .5px solid gray;
+    margin-left: 460px;
+    margin-top: 20px;
+    margin-right: 540px;
+    border-radius: 8px;
+    padding-left: 8px;
+    padding-top: 15px;
+    color: gray;
+    font-weight: 700;
+    font-size: 1.5em;
+
+}
+.image img{
+    width: 800px;
+    height: 200px;
+    margin-left: 100px;
+    margin-right: 40px;
+    margin-top: 20px;
+    position: absolute;
+
+}
+.recipes img{
+    width: 200px;
+    height: 300px;
+    margin-top: 280px;
+    margin-left: 35px;
+    border-radius: 5px;
+
+
+}
+.con6{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.1em;
+    font-weight: 600;
+    margin: 10px 30px 10px 50px;
+}
+.con7{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    margin:10px 40px 10px 40px;
+    
+    
+}
+.con7 a{
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 700;
+    border: .7px solid gray;
+    width: 100px;
+    height: 40px;
+    padding: 8px 5px 10px 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px red;
+    
+}
+.con8{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    
+    
+
+}
+.con8 div img{
+    width: 200px;
+    height:150px ;
+   
+    
+
+}
+.con8 div span{
+    font-size: 1.1em;
+    font-weight: 700;
+}
+.idea{
+    font-size: 2em;
+    font-weight: 600;
+    margin-left: 500px;
+    margin-right:10px ;
+    margin-top: 130px;
+    text-shadow: 2px 2px 2px blue;
+}
+.con9{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-top: 100px;
+}
+.con9 div img{
+    width: 150px;
+    height: 100px;
+    padding-left:10px;
+    padding-bottom: 7px;
+    margin-top: 30px;
+    margin-left: 44px;
+    box-shadow: 10px 10px 3px peru;
+
+
+}
+.con9 div{
+    width: 200px;
+    height: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: .1px solid black;
+    border-bottom: transparent;
+    border-right: transparent;
+    background-color: rgb(233, 224, 224) white;
+    box-shadow: 6px 2px 2px peru;
+  }
+.con9 div p{
+    font-size: 1.1em;
+    font-weight: 400;
+    padding-left: 7px;
+    padding-right: 7px;
+    
+    
+}
+.con9 div h1{
+    padding: 15px  5px 15px 30px;
+    
+}
+.con9 part1 img{
+    margin-top: 200px;
+
+}
+
+.link{
+    border:.5px solid black;
+    width: 1000px;
+    height: 40px;
+    border-radius: 50px;
+    margin-top: 60px;
+    display:flex;
+}
+
+.link a{
+    text-decoration: none;
+    padding-left: 500px;
+    padding-top: 15px;
+    font-size: 1.1em;
+    font-weight: 300;
+}
+.cont10{
+    margin-top: 60px;
+     display: flex;
+     justify-content: space-between;
+    
+    
+}
+
+.con11{
+    width: 500px;
+    height:500px; 
+    font-size: 1.5em;
+    font-weight: 600;
+    color: rgb(49, 49, 49);
+    line-height: 1.6;
+
+
+
+}
+.con10{
+    width: 100px;
+    margin-left:180px;
+    line-height: 1.6;
+}
+.con10 a{
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-left: 10px;
+    color: rgb(49, 49, 49);
+}
+.rights{
+     margin-left: 500px;
+    margin-bottom: 50px;
+}
+.con12{
+    display: flex;
+    justify-content: space-between;
+}
+
+.con12 img{
+    width: 300px;
+    height: 100px;
+}
+
+.idea1{
+    margin-top: 20px;
+}
